@@ -13,7 +13,6 @@ function App() {
     <Router>
        <div className="App">
         <NavigationBar />
-       </div>
         <Switch>
           <Route path="/home" extract>
           <Home />  
@@ -28,6 +27,7 @@ function App() {
           <Store />   
           </Route>
         </Switch>
+       </div>
     </Router>
   );
 }
