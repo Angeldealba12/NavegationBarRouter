@@ -1,0 +1,16 @@
+import { Link } from "react-router-dom";
+
+const NavigationBar = () => {
+    return (
+        <nav className="navbar navbar-dark bg-dark">
+            <form className="d-flex justify-content-sm-around w-50">
+                <Link to='./home' className="btn btn-outline-success " type="button">Home</Link>
+                <Link to='./about' className="btn btn-outline-primary" type="button">About</Link>
+                <Link to='./f.a.q' className="btn btn-outline-danger" type="button">F.A.Q</Link>
+                <Link to='./store' className="btn btn-outline-warning" type="button">Store</Link>
+            </form>
+        </nav>
+    )
+}
+
+export default NavigationBar
